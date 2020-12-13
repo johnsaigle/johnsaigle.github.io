@@ -1,6 +1,6 @@
 layout: post
 title: "Email validation is weird and bad: Lessons in XSS"
-data: 2020-12-13 00:00:00 -0000
+date: 2020-12-13 00:00:00 -0000
 categories: web, xss
 
 **tl;dr** The payload linked here doesn't bypass HTML5 email validation and quite possibly other algorithms as well. It was probably designed to bypass PHP's `filter_var()` function specifically and it would be good to mark it as such.
